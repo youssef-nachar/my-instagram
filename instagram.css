@@ -311,7 +311,7 @@ align-items: center;
         /* width:70%; */
     }
     .navbar{
-        margin-top:20px;
+        margin-top:5px;
         height:80px
     }
     .nav-items{
@@ -325,18 +325,11 @@ align-items: center;
         /* text-align: center; */
         width: 65%;
         margin-left:330px;
-        /* transform: translate(-50%) */
-        /* display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center; */
     }
     .post{
         display: flex;
         flex-direction: column;
         justify-content: center;
-
-        /* text-align:center; */
     }
     .left-col{
         overflow: auto;
@@ -348,66 +341,16 @@ align-items: center;
     .profil-pic img{
         width:100%;
         height: 100%
-
     }
-    /* .navbar{
-        position:relative;
-        top:595px
-    }     */
+    
     .right-col,
     .search-box{
         display:none;
     }
+    
     .ins-img{
         font-size:30px;
         position: absolute;
-        left: -280px
+        left: -280px;
+        top:20px;
     }
-    
-   
-    
-     /* .nav-items{
-         /* position:fixed; */
-        /* width:600px; */
-        /* position: relative;
-        bottom:-1000px;
-
-        z-index: 10000
-    } */ 
-    /* .nav-wrapper,
-    .wrapper{
-        width:70%;
-    }
-    .wrapper{
-        display:block;
-    }
-    .left-col{
-        width:100%
-    }
-} */
-/* @media(max-width:1100px){
-    .nav-items .icon{
-        margin:0 5px;
-    }
-    .post-image{
-        height:600px;
-    }
-}
-[type=button]:not(:enabled),[type=reset]:not(:enabled),[type=submit]:not(enabled), button:not(:enabled){
-    cursor: pointer;
-    border: none;
-    background: white;
-}
-.post a::after{
-    content:"";
-    display: none;
-    color: black;
-}
-.post i{
-    color: #000;
-
-}
-/* img{
-    width:100px;
-    height:100px
-} */
