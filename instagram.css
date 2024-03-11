@@ -311,6 +311,7 @@ align-items: center;
         /* width:70%; */
     }
     .navbar{
+        margin-top:20px;
         height:80px
     }
     .nav-items{
