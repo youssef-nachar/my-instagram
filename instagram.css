@@ -26,7 +26,7 @@ body{
 }
 .nav-wrapper{
     width: 70%;
-    max-width: 1364px;height: 100%;
+    /* max-width: 1364px;height: 100%; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -57,7 +57,7 @@ body{
 .nav-items{
     height:22px;
     position: relative;
-    margin-right:-65px;
+    right:-65px;
 }
 .icon{
     /* height:120%; */
@@ -297,42 +297,91 @@ align-items: center;
     margin:20px 0
 
 }
-@media (max-width:1100px){
-  
-    
+@media (max-width:1100px){   
     body{
         position:relative;
         /* padding:30px; */
-        width:1100px
-    }    
-    .right-col,.search-box{
+          width:100%;  
+    }
+
+    .wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* width:70%; */
+    }
+    .nav-items{
+        position: absolute;
+        top:1000px; 
+        left:0;
+        /* position:fixed; */
+        height:100px
+    }
+    .all-post{
+        /* text-align: center; */
+        width: 65%;
+        margin-left:330px;
+        /* transform: translate(-50%) */
+        /* display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; */
+    }
+    .post{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        /* text-align:center; */
+    }
+    .left-col{
+        overflow: auto;
+    }
+    .profil-pic{
+        width:120px;
+        height:120px;
+    }
+    .profil-pic img{
+        width:100%;
+        height: 100%
+
+    }
+    /* .navbar{
+        position:relative;
+        top:595px
+    }     */
+    .right-col,
+    .search-box{
         display:none;
     }
-    .navbar{
-        position: fixed;
-        bottom:10px;
-        left: 0;
-        width:100%;
-        height:50px;
-        background-color: #fff;
-        border-bottom: 1px solid #dfdfdf;
-        display: flex;
-        justify-content: space-between;
-    }
     .ins-img{
+        font-size:30px;
         position: absolute;
-        right: 50px
+        left: -280px
     }
-     
-    .nav-wrapper,
+    
+   
+    
+     /* .nav-items{
+         /* position:fixed; */
+        /* width:600px; */
+        /* position: relative;
+        bottom:-1000px;
+
+        z-index: 10000
+    } */ 
+    /* .nav-wrapper,
     .wrapper{
-        width:90%;
+        width:70%;
     }
     .wrapper{
         display:block;
     }
-}
-@media(max-width:1100px){
+    .left-col{
+        width:100%
+    }
+} */
+/* @media(max-width:1100px){
     .nav-items .icon{
         margin:0 5px;
     }
